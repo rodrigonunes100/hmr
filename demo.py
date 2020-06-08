@@ -35,7 +35,7 @@ from src.RunModel import RunModel
 import pandas as pd 
 import os
 import glob
-
+sys.path.insert(0,'/tensorflow-1.15.2/python2.7')
 flags.DEFINE_string('img_path', 'data/im1963.jpg', 'Image to run')
 flags.DEFINE_string(
     'json_path', None,
